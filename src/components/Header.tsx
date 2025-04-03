@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { HardHat, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
 
 const Header = () => {

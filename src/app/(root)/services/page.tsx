@@ -2,15 +2,9 @@ import Faq from '@/components/Faq';
 import SectionHeading from '@/components/SectionHeading';
 import StartProject from '@/components/StartProject';
 import { Service } from '@/types';
-import {
-  ArrowRight,
-  Building,
-  Factory,
-  Hammer,
-  Home,
-  LucideProps,
-} from 'lucide-react';
-import React, { ForwardRefExoticComponent, RefAttributes } from 'react';
+import { ArrowRight, Building, Factory, Hammer, Home } from 'lucide-react';
+import Image from 'next/image';
+import React from 'react';
 
 const servicesData: Service[] = [
   {
@@ -210,7 +204,7 @@ const ServicePage = () => {
 
             {/* Image Section */}
             <div className={index % 2 === 0 ? 'order-1 lg:order-2' : ''}>
-              <img
+              <Image
                 src={`https://images.unsplash.com/photo-${
                   index === 0
                     ? '1487958449943-2429e8be8625'
@@ -220,6 +214,8 @@ const ServicePage = () => {
                         ? '1459767129954-1b1c1f9b9ace'
                         : '1527576539890-dfa815648363'
                 }?q=80&w=800`}
+                width={800}
+                height={800}
                 alt={service.title}
                 className="h-full w-full rounded-lg object-cover shadow-lg"
               />

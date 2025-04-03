@@ -58,7 +58,7 @@ const ContactUsSection = () => {
                 Send Us a Message
               </h2>
               <p className="text-gray-600">
-                Fill out this form and we'll get back to you ASAP
+                Fill out this form and we&#39;ll get back to you ASAP
               </p>
             </div>
             <form className="space-y-4">

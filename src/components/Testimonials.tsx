@@ -3,7 +3,6 @@ import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import SectionHeading from './SectionHeading';
 import data from '../utility/data.json';
-import Image from 'next/image';
 import { ArrowLeft } from 'lucide-react';
 
 const Testimonials = () => {

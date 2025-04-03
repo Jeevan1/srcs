@@ -1,10 +1,5 @@
 import type { Metadata } from 'next';
-import {
-  Geist,
-  Geist_Mono,
-  Roboto_Serif,
-  Ubuntu_Sans_Mono,
-} from 'next/font/google';
+import { Roboto_Serif } from 'next/font/google';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './globals.css';
