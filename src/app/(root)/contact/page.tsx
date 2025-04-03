@@ -1,6 +1,12 @@
 import ContactUsSection from '@/components/ContactUsSection';
 import GoogleMap from '@/components/GoogleMap';
+import { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: 'Services | Santosh Raj Construction and Suppliers',
+  description: 'Santosh Raj Construction and Suppliers',
+};
 
 const ContactPage = () => {
   return (

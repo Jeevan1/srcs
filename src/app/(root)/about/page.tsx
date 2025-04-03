@@ -1,6 +1,7 @@
 import SectionHeading from '@/components/SectionHeading';
 import StartProject from '@/components/StartProject';
 import { Award, AwardIcon, CheckCircle, User2 } from 'lucide-react';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import React from 'react';
 const counterData = [
@@ -29,6 +30,11 @@ const counterData = [
     icon: AwardIcon,
   },
 ];
+
+export const metadata: Metadata = {
+  title: 'About | Santosh Raj Construction and Suppliers',
+  description: 'Santosh Raj Construction and Suppliers',
+};
 
 const AboutPage = () => {
   return (

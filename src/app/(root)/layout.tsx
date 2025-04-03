@@ -1,14 +1,23 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import React from "react";
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import { Metadata } from 'next';
+import React from 'react';
 
-const RootLayout = ({children}: {children: React.ReactNode}) => {
+export const metadata: Metadata = {
+  title: {
+    default: 'Santosh Raj Construction and Suppliers',
+    template: '%s | Santosh Raj Construction and Suppliers',
+  },
+  description: 'Santosh Raj Construction and Suppliers',
+};
+
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-     <main>
+    <main>
       <Header />
       {children}
       <Footer />
-     </main> 
+    </main>
   );
 };
 

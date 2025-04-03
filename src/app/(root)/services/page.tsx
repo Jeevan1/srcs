@@ -3,8 +3,14 @@ import SectionHeading from '@/components/SectionHeading';
 import StartProject from '@/components/StartProject';
 import { Service } from '@/types';
 import { ArrowRight, Building, Factory, Hammer, Home } from 'lucide-react';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: 'Services | Santosh Raj Construction and Suppliers',
+  description: 'Santosh Raj Construction and Suppliers',
+};
 
 const servicesData: Service[] = [
   {
