@@ -32,13 +32,11 @@ const ContactUsSection = () => {
               </div>
               <div>
                 <h3 className="font-medium">Phone</h3>
-                <p className="text-gray-500">(977) 123-4567</p>
+                <p className="text-gray-500">(977) 9860316903</p>
               </div>
               <div>
                 <h3 className="font-medium">Email</h3>
-                <p className="text-gray-500">
-                  santoshrajconstruction@gmail.com
-                </p>
+                <p className="text-gray-500">srconstruction@gmail.com</p>
               </div>
               <div>
                 <h3 className="font-medium">Hours</h3>

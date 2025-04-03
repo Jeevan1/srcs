@@ -55,10 +55,11 @@ const Header = () => {
             Contact
           </Link>
           <Link
-            href="/contact"
+            href="tel:9860316903"
+            rel="noopener noreferrer"
             className="ml-4 rounded-md bg-primary/80 px-4 py-2 text-white hover:bg-primary"
           >
-            Get a Quote
+            Call Now
           </Link>
         </nav>
 

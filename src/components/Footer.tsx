@@ -1,4 +1,5 @@
 import { HardHat } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Footer = () => {
@@ -11,8 +12,13 @@ const Footer = () => {
               href="/"
               className="flex items-center gap-2 text-xl font-bold text-white"
             >
-              <HardHat className="h-6 w-6" />
-              <span>BuildRight</span>
+              <Image
+                src={'/assets/logo2.png'}
+                alt="Logo"
+                width={100}
+                height={70}
+                className="h-16 w-28 object-contain"
+              />
             </Link>
             <p className="text-sm text-gray-400">
               Premium construction services with over 25 years of industry
@@ -115,18 +121,17 @@ const Footer = () => {
           <div>
             <h3 className="mb-4 font-semibold text-white">Contact</h3>
             <address className="space-y-2 text-gray-400 not-italic">
-              <p>123 Construction Avenue</p>
-              <p>Builderville, BL 12345</p>
-              <p>Phone: (555) 123-4567</p>
-              <p>Email: info@buildright.com</p>
+              <p>123 Main Street</p>
+              <p>Chapali, Kathmandu</p>
+              <p>Phone: (977) 9860316903</p>
+              <p>Email: srconstruction986@gmail.com</p>
             </address>
           </div>
         </div>
 
         <div className="mt-8 flex flex-col items-center justify-between border-t border-gray-800 pt-8 md:flex-row">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} BuildRight Construction. All rights
-            reserved.
+            © {new Date().getFullYear()} JDev. All rights reserved.
           </p>
           <div className="mt-4 flex space-x-6 md:mt-0">
             <a
