@@ -52,18 +52,18 @@ const Testimonials = () => {
           <div className="absolute top-1/2 z-1 flex w-full -translate-y-1/2 justify-between space-x-2">
             <button
               onClick={() => sliderRef.current?.slickPrev()}
-              className="-ml-5 cursor-pointer rounded-lg bg-gray-400 p-1 text-white transition hover:bg-primary"
+              className="cursor-pointer rounded-lg bg-gray-400 p-1 text-white transition hover:bg-primary md:-ml-5"
             >
               <ArrowLeft className="" size={20} />
             </button>
             <button
               onClick={() => sliderRef.current?.slickNext()}
-              className="-mr-6 cursor-pointer rounded-lg bg-gray-400 p-1 text-white transition hover:bg-primary"
+              className="cursor-pointer rounded-lg bg-gray-400 p-1 text-white transition hover:bg-primary md:-mr-6"
             >
               <ArrowLeft className="rotate-180" size={20} />
             </button>
           </div>
-          <Slider {...settings} className="-mx-3 mb-3 pb-3" ref={sliderRef}>
+          <Slider {...settings} className="mb-3 pb-3 md:-mx-3" ref={sliderRef}>
             {data.testimonials.map((testimonial, index) => (
               <div key={index} className="min-h-full px-3 pb-3">
                 <div className="flex flex-col justify-between overflow-hidden rounded-md bg-gray-50 shadow-md transition-shadow duration-300 hover:shadow-lg">
