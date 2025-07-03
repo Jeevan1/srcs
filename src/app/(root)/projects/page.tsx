@@ -4,7 +4,6 @@ import ProjectCard from '@/components/ProjectCard';
 import SectionHeading from '@/components/SectionHeading';
 import StartProject from '@/components/StartProject';
 import TabsList from '@/components/ui/TabsList';
-import { Projects } from '@/types';
 import data from '../../../utility//data.json';
 
 const ProjectPage = () => {

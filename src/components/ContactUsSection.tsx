@@ -1,6 +1,5 @@
 import React from 'react';
 import SectionHeading from './SectionHeading';
-import Input from './ui/Input';
 import GoogleMap from './GoogleMap';
 
 const ContactUsSection = () => {

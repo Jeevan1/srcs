@@ -1,5 +1,4 @@
 import ContactUsSection from '@/components/ContactUsSection';
-import GoogleMap from '@/components/GoogleMap';
 import { Metadata } from 'next';
 import React from 'react';
 
