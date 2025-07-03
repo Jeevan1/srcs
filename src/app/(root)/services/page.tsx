@@ -15,142 +15,146 @@ export const metadata: Metadata = {
 const servicesData: Service[] = [
   {
     id: 'residential',
-    title: 'Residential Construction',
+    title: 'Residential Material Supply',
     description:
-      'Custom homes, renovations, and additions tailored to your lifestyle and preferences.',
+      'High-quality construction materials for residential buildings, from foundation to finish.',
     icon: Home,
+    image: '/assets/services/service.png',
     features: [
-      'Custom home design and construction',
-      'Home renovations and remodeling',
-      'Additions and extensions',
-      'Luxury home construction',
-      'Energy-efficient home solutions',
+      'Bricks, cement, and aggregates',
+      'Steel rods and TMT bars',
+      'Roofing sheets and insulation',
+      'Paints and finishes',
+      'On-time site delivery',
     ],
     faqs: [
       {
         id: 1,
-        question: 'How long does it typically take to build a custom home?',
+        question: 'What materials do you supply for home construction?',
         answer:
-          'The timeline for a custom home varies depending on size, complexity, and other factors. Typically, our custom homes take between 8-14 months from design to completion.',
+          'We supply a wide range of materials including cement, steel rods, bricks, sand, aggregates, roofing materials, and interior finishing products for residential projects.',
       },
       {
         id: 2,
-        question: 'Do you handle all the permits and approvals?',
+        question: 'Do you deliver materials directly to the construction site?',
         answer:
-          'Yes, we manage all aspects of the permitting process, including obtaining necessary approvals from local authorities and ensuring compliance with building codes.',
+          'Yes, we offer reliable site delivery to ensure your materials arrive safely and on time, minimizing project delays.',
       },
       {
         id: 3,
-        question: 'Can I make changes during the construction process?',
+        question:
+          'Do you provide bulk discounts for large residential projects?',
         answer:
-          'We accommodate reasonable changes during construction, though significant modifications may impact the timeline and budget. We manage change orders professionally to ensure clear communication.',
+          'Absolutely. We offer competitive pricing and discounts for bulk purchases to support large-scale residential developments.',
       },
     ],
   },
   {
     id: 'commercial',
-    title: 'Commercial Construction',
+    title: 'Commercial Material Supply',
     description:
-      'Office buildings, retail spaces, and restaurants built to the highest standards.',
+      'Supplying durable materials for office buildings, schools, hospitals, and retail spaces.',
     icon: Building,
+    image: '/assets/services/service2.jpg',
     features: [
-      'Office building construction',
-      'Retail space development',
-      'Restaurant and hospitality construction',
-      'Medical facility construction',
-      'Tenant improvement projects',
+      'High-grade cement and structural steel',
+      'Bulk brick and concrete supply',
+      'Commercial roofing and insulation materials',
+      'Flooring and finishing materials',
+      'Material compliance with commercial standards',
     ],
     faqs: [
       {
         id: 1,
         question:
-          'How do you minimize disruption to neighboring businesses during construction?',
+          'Do you supply materials for commercial complexes and offices?',
         answer:
-          'We implement carefully planned construction schedules, noise reduction strategies, and dust control measures. We also maintain open communication with neighboring businesses to address concerns.',
+          'Yes, we supply a complete range of commercial-grade materials for offices, retail centers, schools, and hospitals.',
       },
       {
         id: 2,
-        question: 'Do you offer design-build services for commercial projects?',
+        question:
+          'Can you provide material documentation for government/commercial projects?',
         answer:
-          'Yes, we offer comprehensive design-build services that streamline the process from concept to completion, providing a single point of responsibility for your project.',
+          'Yes, we provide all necessary invoices, compliance certificates, and quality assurance documents for formal project requirements.',
       },
       {
         id: 3,
-        question: 'Can you work with our existing architectural plans?',
+        question: 'Do you coordinate with contractors or site engineers?',
         answer:
-          'Absolutely. We can work with your architectural plans or collaborate with your chosen architect to bring your commercial vision to life.',
+          'Yes, we work directly with contractors and site supervisors to ensure timely and accurate delivery.',
       },
     ],
   },
   {
     id: 'industrial',
-    title: 'Industrial Construction',
+    title: 'Industrial Material Supply',
     description:
-      'Factories, warehouses, and production facilities designed for efficiency and durability.',
+      'Robust materials for factories, warehouses, and large-scale infrastructure projects.',
     icon: Factory,
+    image: '/assets/services/service.png',
     features: [
-      'Manufacturing plant construction',
-      'Warehouse and distribution centers',
-      'Industrial retrofitting and upgrades',
-      'Clean room and specialized facilities',
-      'Heavy equipment foundations',
+      'Heavy-duty steel and rebar',
+      'Precast concrete elements',
+      'Bulk delivery and transport logistics',
+      'Specialized industrial flooring',
+      'Industrial-grade coatings and finishes',
     ],
     faqs: [
       {
         id: 1,
-        question:
-          'What experience do you have with specialized industrial requirements?',
+        question: 'Do you handle bulk industrial supply orders?',
         answer:
-          'Our team has extensive experience with various industrial specifications, including clean rooms, specialized HVAC systems, heavy equipment foundations, and regulatory compliance for different industries.',
+          'Yes, we have the capacity and logistics support to manage bulk supply orders for factories, plants, and warehouses.',
       },
       {
         id: 2,
         question:
-          'Can you accommodate our production schedule during construction?',
+          'Can you arrange materials for time-sensitive industrial projects?',
         answer:
-          'Yes, we develop phased construction plans that work around your operational needs, minimizing downtime and disruption to your production schedule.',
+          'Absolutely. We work with flexible delivery schedules to meet industrial project deadlines and reduce downtime.',
       },
       {
         id: 3,
-        question: 'Do you handle large-scale industrial projects?',
+        question: 'What makes your materials suitable for industrial use?',
         answer:
-          'Absolutely. We have the capability, experience, and resources to manage industrial projects of all sizes, from small retrofits to large-scale new construction.',
+          'Our products meet industrial-grade strength, durability, and quality standards, ensuring performance in heavy-use environments.',
       },
     ],
   },
   {
     id: 'renovation',
-    title: 'Renovation & Remodeling',
+    title: 'Renovation & Restoration Supplies',
     description:
-      'Transform existing spaces with our expert renovation and remodeling services.',
+      'Specialized materials for remodeling, repairs, and heritage building restoration.',
     icon: Hammer,
+    image: '/assets/services/service2.jpg',
     features: [
-      'Complete property renovations',
-      'Historic building restoration',
-      'Office and retail space remodeling',
-      'Kitchen and bathroom renovations',
-      'Structural repairs and upgrades',
+      'Tiles, fixtures, and finishes',
+      'Waterproofing and repair compounds',
+      'Ready-mix concrete and patching materials',
+      'Paints, plasters, and coatings',
+      'Heritage-compatible supply options',
     ],
     faqs: [
       {
         id: 1,
-        question: 'Can we stay in our home during renovation?',
+        question: 'Do you supply materials for small renovation projects?',
         answer:
-          'Depending on the scope of work, many renovations allow homeowners to remain in their homes. We implement containment strategies to minimize dust and disruption to other areas.',
+          'Yes, whether it’s a home remodel or a shop upgrade, we offer tailored material packages to suit project size and scope.',
       },
       {
         id: 2,
         question:
-          'How do you handle unexpected issues discovered during renovation?',
+          'Do you have materials for historic or traditional structures?',
         answer:
-          'Our experienced team anticipates potential challenges with thorough pre-construction inspections. When unexpected issues arise, we communicate promptly and present cost-effective solutions.',
+          'We supply restoration-compatible products that preserve the original character while meeting modern quality standards.',
       },
       {
         id: 3,
-        question:
-          'Do you specialize in period-appropriate restoration for older buildings?',
+        question: 'Can you help recommend materials for renovation use?',
         answer:
-          'Yes, we have specialized craftsmen and processes for historic restoration, ensuring we maintain the character and integrity of older structures while modernizing systems.',
+          'Yes, our team provides guidance on the best-suited materials for your renovation needs, including cost-effective and premium options.',
       },
     ],
   },
@@ -211,15 +215,10 @@ const ServicePage = () => {
             {/* Image Section */}
             <div className={index % 2 === 0 ? 'order-1 lg:order-2' : ''}>
               <Image
-                src={`https://images.unsplash.com/photo-${
-                  index === 0
-                    ? '1487958449943-2429e8be8625'
-                    : index === 1
-                      ? '1488972685288-c3fd157d7c7a'
-                      : index === 2
-                        ? '1459767129954-1b1c1f9b9ace'
-                        : '1527576539890-dfa815648363'
-                }?q=80&w=800`}
+                src={
+                  service.image ||
+                  `https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=800`
+                }
                 width={800}
                 height={800}
                 alt={service.title}

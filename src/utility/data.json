@@ -1,129 +1,92 @@
 {
   "services": [
     {
-      "title": "Residential Construction",
+      "title": "Residential Building Materials",
       "description": "Custom homes, renovations, and additions tailored to your lifestyle and preferences.",
       "icon": "HardHat"
     },
     {
-      "title": "Commercial Construction",
+      "title": "Commercial Building Materials",
       "description": "Office buildings, retail spaces, and restaurants built to the highest standards.",
       "icon": "Building"
     },
     {
-      "title": "Industrial Construction",
-      "description": "Factories, warehouses, and production facilities designed for efficiency and durability.",
+      "title": "Industrial Building Materials",
+      "description": "Supplying quality materials tailored to your unique lifestyle and building preferences.",
       "icon": "Truck"
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Modern Office Complex",
+      "title": "Steel Supply for Commercial Buildings",
       "category": "Commercial",
-      "imageUrl": "https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?q=80&w=800"
+      "imageUrl": "/assets/projects/project.png",
+      "location": "Kathmandu, Nepal",
+      "description": "Supplied high-quality steel and TMT bars for commercial complexes and shopping centers."
     },
     {
       "id": 2,
-      "title": "Luxury Residential Tower",
+      "title": "Bricks and Cement for Residential Housing",
       "category": "Residential",
-      "imageUrl": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=800"
+      "imageUrl": "/assets/projects/project2.jpg",
+      "location": "Lalitpur, Nepal",
+      "description": "Delivered bricks, cement, and aggregates for housing projects and private home construction."
     },
     {
       "id": 3,
-      "title": "Historic Building Renovation",
+      "title": "Materials for Heritage Building Renovation",
       "category": "Renovation",
-      "imageUrl": "https://images.unsplash.com/photo-1527576539890-dfa815648363?q=80&w=800"
+      "imageUrl": "/assets/projects/project.png",
+      "location": "Bhaktapur, Nepal",
+      "description": "Provided restoration-friendly materials including stone, wood, and lime plaster for traditional buildings."
     },
     {
       "id": 4,
-      "title": "Industrial Warehouse",
+      "title": "Bulk Material Supply for Industrial Projects",
       "category": "Industrial",
-      "imageUrl": "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?q=80&w=800"
+      "imageUrl": "/assets/projects/project2.jpg",
+      "location": "Biratnagar, Nepal",
+      "description": "Supplied bulk industrial-grade materials for warehouses and factory construction."
     },
     {
       "id": 5,
-      "title": "Urban Street Renovation",
-      "category": "Renovation",
-      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=800"
+      "title": "Materials for Road and Infrastructure Renovation",
+      "category": "Infrastructure",
+      "imageUrl": "/assets/projects/project.png",
+      "location": "Butwal, Nepal",
+      "description": "Delivered road base materials, asphalt mix, and concrete for local infrastructure development."
     },
     {
       "id": 6,
-      "title": "Sustainable Energy Project",
-      "category": "Renovation",
-      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=800"
+      "title": "Eco-Friendly Materials for Sustainable Projects",
+      "category": "Sustainable",
+      "imageUrl": "/assets/projects/project.png",
+      "location": "Pokhara, Nepal",
+      "description": "Supplied eco-friendly materials like fly ash cement, low-emission coatings, and recycled aggregates."
     }
   ],
   "testimonials": [
     {
       "id": 1,
-      "name": "John Doe",
-      "designation": "CEO, TechCorp",
+      "name": "Keshav Shrestha",
+      "designation": "Construction Manager",
       "testimonial": "This company provided exceptional service! The team was professional and delivered beyond expectations.",
       "imageUrl": "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
       "id": 2,
-      "name": "Jane Smith",
-      "designation": "Marketing Manager, BrandX",
+      "name": "Bijay Shrestha",
+      "designation": "CEO, BJs Shop",
       "testimonial": "Outstanding experience! The quality of work was excellent, and they truly care about their clients.",
       "imageUrl": "https://randomuser.me/api/portraits/women/2.jpg"
     },
     {
       "id": 3,
-      "name": "Michael Johnson",
-      "designation": "Founder, StartUp Inc.",
-      "testimonial": "Highly recommended! Their attention to detail and creativity set them apart from the rest.",
+      "name": "Nabin Shrestha",
+      "designation": "Contractor",
+      "testimonial": "Highly recommended! Their commitment to quality materials and timely delivery truly sets them apart from other suppliers.",
       "imageUrl": "https://randomuser.me/api/portraits/men/3.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Emily Davis",
-      "designation": "Product Manager, SoftSolutions",
-      "testimonial": "A fantastic team to work with! They exceeded all our expectations and delivered on time.",
-      "imageUrl": "https://randomuser.me/api/portraits/women/4.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Robert Brown",
-      "designation": "CTO, InnovateTech",
-      "testimonial": "Their work was phenomenal! I couldn't have asked for a better experience.",
-      "imageUrl": "https://randomuser.me/api/portraits/men/5.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Sophia Wilson",
-      "designation": "HR Manager, PeopleFirst",
-      "testimonial": "Superb customer service and excellent quality of work. I will definitely work with them again!",
-      "imageUrl": "https://randomuser.me/api/portraits/women/6.jpg"
-    },
-    {
-      "id": 7,
-      "name": "David Miller",
-      "designation": "COO, GreenEnergy",
-      "testimonial": "Reliable, efficient, and professional. A great experience from start to finish!",
-      "imageUrl": "https://randomuser.me/api/portraits/men/7.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Olivia Martinez",
-      "designation": "Lead Designer, CreativeStudio",
-      "testimonial": "Their team has an eye for detail and truly understands the client's vision. Highly satisfied!",
-      "imageUrl": "https://randomuser.me/api/portraits/women/8.jpg"
-    },
-    {
-      "id": 9,
-      "name": "William Anderson",
-      "designation": "Project Manager, BuildIt",
-      "testimonial": "Professionalism at its best. They handled our project with expertise and precision.",
-      "imageUrl": "https://randomuser.me/api/portraits/men/9.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Ava Thompson",
-      "designation": "CEO, BrightFuture",
-      "testimonial": "They went above and beyond to ensure we were satisfied. I highly recommend their services!",
-      "imageUrl": "https://randomuser.me/api/portraits/women/10.jpg"
     }
   ]
 }

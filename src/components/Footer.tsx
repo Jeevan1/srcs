@@ -20,7 +20,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-sm text-gray-400">
-              Premium construction services with over 25 years of industry
+              Premium construction material supplier with over 7 years of
               experience.
             </p>
           </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                   href="/services"
                   className="text-gray-400 transition-colors hover:text-white"
                 >
-                  Residential Construction
+                  Residential Materials
                 </Link>
               </li>
               <li>
@@ -87,7 +87,7 @@ const Footer = () => {
                   href="/services"
                   className="text-gray-400 transition-colors hover:text-white"
                 >
-                  Commercial Construction
+                  Commercial Materials
                 </Link>
               </li>
               <li>
@@ -95,7 +95,7 @@ const Footer = () => {
                   href="/services"
                   className="text-gray-400 transition-colors hover:text-white"
                 >
-                  Industrial Construction
+                  Industrial Materials
                 </Link>
               </li>
               <li>
@@ -120,9 +120,8 @@ const Footer = () => {
           <div>
             <h3 className="mb-4 font-semibold text-white">Contact</h3>
             <address className="space-y-2 text-gray-400 not-italic">
-              <p>123 Main Street</p>
               <p>Chapali, Kathmandu</p>
-              <p>Phone: (977) 9860316903</p>
+              <p>Phone: (+977) 9860316903</p>
               <p>Email: srconstruction986@gmail.com</p>
             </address>
           </div>

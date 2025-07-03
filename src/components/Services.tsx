@@ -8,8 +8,8 @@ const Services = () => {
       <div className="container">
         <SectionHeading
           title="Our Expertise"
-          subtitle="Construction Services"
-          description="We offer a comprehensive range of construction services to meet all your building needs."
+          subtitle="Supplying the Future of Construction"
+          description="Whether you're building a home or a high-rise, we offer everything you need — reliable service, premium materials, and on-time delivery."
         />
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -36,9 +36,11 @@ const Services = () => {
               <div className="mt-4">
                 <ul className="list-inside list-disc space-y-0.5 text-gray-600">
                   <li>Free consultation</li>
-                  <li>Custom design planning</li>
                   <li>Quality materials</li>
                   <li>Expert craftsmanship</li>
+                  <li>On-Time Delivery</li>
+                  <li>Bulk Order Support</li>
+                  <li>Trusted Supplier Network</li>
                 </ul>
               </div>
             </div>

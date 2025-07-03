@@ -6,13 +6,12 @@ const Hero = () => {
     <section className="relative w-full bg-gradient-to-br from-gray-900 to-gray-800 py-28 text-white md:py-36">
       {/* Background Overlay */}
       <div
-        className="absolute inset-0 bg-black opacity-50"
+        className="absolute inset-0 bg-black opacity-90"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1200')",
+          backgroundImage: `url('/assets/banner/banner.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          mixBlendMode: 'overlay',
+          mixBlendMode: 'normal',
         }}
       />
 
@@ -21,9 +20,9 @@ const Hero = () => {
           <h1 className="mb-6 text-4xl leading-tight font-extrabold tracking-tight sm:text-5xl md:text-6xl">
             Building<span className="text-primary"> Tomorrow</span>, Today
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-xl text-gray-300 md:text-2xl">
-            Premium construction services with unmatched quality, reliability,
-            and craftsmanship.
+          <p className="mx-auto mt-6 max-w-2xl text-xl text-gray-50 md:text-2xl">
+            Supplying top-tier materials for every foundation — from homes to
+            highways.
           </p>
           <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
             <Link href="/projects">

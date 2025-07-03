@@ -12,10 +12,10 @@ const ContactPage = () => {
   return (
     <div className="pb-8">
       <ContactUsSection />
-      <div className="py-12">
+      {/* <div className="py-12">
         <h1 className="mb-8 text-center text-xl font-bold">Location</h1>
-        <GoogleMap />
-      </div>
+        <GoogleMap /> 
+      </div> */}
     </div>
   );
 };

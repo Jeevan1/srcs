@@ -8,7 +8,7 @@ const counterData = [
   {
     id: 1,
     title: 'Years of Experience',
-    value: '20+',
+    value: '7+',
     icon: Award,
   },
   {
@@ -48,7 +48,7 @@ const AboutPage = () => {
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
           <div>
             <Image
-              src="https://images.unsplash.com/photo-1473177104440-ffee2f376098?q=80&w=800"
+              src="/assets/about.jpg"
               alt="About Us"
               width={800}
               height={800}
@@ -59,19 +59,22 @@ const AboutPage = () => {
           <div className="space-y-6">
             <h2 className="text-2xl font-bold">Our Mission</h2>
             <p className="text-muted-foreground">
-              Founded in 1995, BuildRight Construction has established itself as
-              a leader in the construction industry with a simple mission: to
-              deliver exceptional building services with integrity, innovation,
-              and attention to detail. Our team of dedicated professionals is
-              committed to transforming your vision into reality.
+              Founded in 2017, Santosh Raj Suppliers has proudly established
+              itself as a trusted leader in the construction materials supply
+              industry. Guided by a simple yet meaningful mission — to provide
+              exceptional quality materials with integrity, innovation, and
+              careful attention to every detail. Our dedicated team is committed
+              to supporting your projects by delivering reliable supplies that
+              help turn your vision into reality.
             </p>
 
             <h2 className="text-2xl font-bold">Our Approach</h2>
             <p className="text-muted-foreground">
-              We believe in collaborative partnerships with our clients,
-              architects, and subcontractors. This collaborative approach,
-              combined with our technical expertise and innovative solutions,
-              ensures projects are completed to the highest standards, on time,
+              At Santosh Raj Suppliers, we firmly believe in building strong,
+              collaborative partnerships with our clients, architects, and
+              subcontractors. This spirit of teamwork, paired with our technical
+              knowledge and innovative material solutions, ensures that every
+              project receives the highest quality supplies — delivered on time
               and within budget.
             </p>
 
@@ -79,27 +82,29 @@ const AboutPage = () => {
               <div className="flex items-start gap-2">
                 <CheckCircle className="mt-1 h-5 w-5 text-primary" />
                 <div>
-                  <h3 className="font-medium">Quality Assurance</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Rigorous quality control standards
+                  <h3 className="font-medium">Quality Materials</h3>
+                  <p className="text-sm text-gray-500">
+                    Sourced from trusted manufacturers with strict quality
+                    checks
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-2">
                 <CheckCircle className="mt-1 h-5 w-5 text-primary" />
                 <div>
-                  <h3 className="font-medium">Safety First</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Top safety protocols on every site
+                  <h3 className="font-medium">Reliable Delivery</h3>
+                  <p className="text-sm text-gray-500">
+                    Timely supply to keep your projects on schedule
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-2">
                 <CheckCircle className="mt-1 h-5 w-5 text-primary" />
                 <div>
-                  <h3 className="font-medium">Innovative Solutions</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Modern construction techniques
+                  <h3 className="font-medium">Wide Product Range</h3>
+                  <p className="text-sm text-gray-500">
+                    Comprehensive selection to meet all construction material
+                    needs
                   </p>
                 </div>
               </div>
@@ -107,8 +112,8 @@ const AboutPage = () => {
                 <CheckCircle className="mt-1 h-5 w-5 text-primary" />
                 <div>
                   <h3 className="font-medium">Sustainability</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Eco-friendly building practices
+                  <p className="text-sm text-gray-500">
+                    Offering eco-friendly and sustainable building materials
                   </p>
                 </div>
               </div>

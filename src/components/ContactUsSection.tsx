@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionHeading from './SectionHeading';
 import Input from './ui/Input';
+import GoogleMap from './GoogleMap';
 
 const ContactUsSection = () => {
   return (
@@ -18,21 +19,17 @@ const ContactUsSection = () => {
                 Contact Information
               </h2>
               <p className="text-gray-600">
-                Reach out to us through any of these channels
+                Reach out to us through any of these channels.
               </p>
             </div>
             <div className="space-y-6">
               <div>
                 <h3 className="font-medium">Address</h3>
-                <p className="text-gray-500">
-                  123 Main Street
-                  <br />
-                  Chapali, Kathmandu
-                </p>
+                <p className="text-gray-500">Chapali, Kathmandu</p>
               </div>
               <div>
                 <h3 className="font-medium">Phone</h3>
-                <p className="text-gray-500">(977) 9860316903</p>
+                <p className="text-gray-500">(+977) 9860316903</p>
               </div>
               <div>
                 <h3 className="font-medium">Email</h3>
@@ -41,17 +38,15 @@ const ContactUsSection = () => {
               <div>
                 <h3 className="font-medium">Hours</h3>
                 <p className="text-gray-500">
-                  Monday - Friday: 8am - 5pm
-                  <br />
-                  Saturday: 9am - 1pm
+                  Opens 24 hours a day, 7 days a week
                 </p>
               </div>
             </div>
           </div>
 
           {/* Contact Form */}
-          <div className="rounded-lg border border-gray-100 bg-white p-6 shadow-md">
-            <div className="mb-4 space-y-1">
+          <div className="rounded-lg border border-gray-100 bg-white shadow-md">
+            {/* <div className="mb-4 space-y-1">
               <h2 className="text-xl font-semibold md:text-2xl">
                 Send Us a Message
               </h2>
@@ -83,7 +78,10 @@ const ContactUsSection = () => {
               >
                 Send Message
               </button>
-            </form>
+            </form> */}
+            <div className="h-96 md:h-full">
+              <GoogleMap />
+            </div>
           </div>
         </div>
       </div>

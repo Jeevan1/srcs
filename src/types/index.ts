@@ -10,6 +10,7 @@ export type Service = {
   id: string;
   title: string;
   description: string;
+  image: string;
   icon: ForwardRefExoticComponent<
     Omit<LucideProps, 'ref'> & RefAttributes<SVGSVGElement>
   >;
@@ -23,8 +24,8 @@ export type Projects = {
   category: string;
   description: string;
   location: string;
-  completionDate: string;
-  client: string;
-  image: string;
-  features: string[];
+  completionDate?: string;
+  client?: string;
+  imageUrl: string;
+  features?: string[];
 };
