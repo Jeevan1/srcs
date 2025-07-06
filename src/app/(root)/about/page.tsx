@@ -52,7 +52,7 @@ const AboutPage = () => {
               alt="About Us"
               width={800}
               height={800}
-              className="h-144 w-full rounded-md"
+              className="h-120 w-full rounded-md md:h-144"
             />
           </div>
 
@@ -80,7 +80,9 @@ const AboutPage = () => {
 
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="flex items-start gap-2">
-                <CheckCircle className="mt-1 h-5 w-5 text-primary" />
+                <div>
+                  <CheckCircle size={16} className="mt-1 text-primary" />
+                </div>
                 <div>
                   <h3 className="font-medium">Quality Materials</h3>
                   <p className="text-sm text-gray-500">
@@ -90,7 +92,9 @@ const AboutPage = () => {
                 </div>
               </div>
               <div className="flex items-start gap-2">
-                <CheckCircle className="mt-1 h-5 w-5 text-primary" />
+                <div>
+                  <CheckCircle size={16} className="mt-1 text-primary" />
+                </div>
                 <div>
                   <h3 className="font-medium">Reliable Delivery</h3>
                   <p className="text-sm text-gray-500">
@@ -99,7 +103,9 @@ const AboutPage = () => {
                 </div>
               </div>
               <div className="flex items-start gap-2">
-                <CheckCircle className="mt-1 h-5 w-5 text-primary" />
+                <div>
+                  <CheckCircle size={16} className="mt-1 text-primary" />
+                </div>
                 <div>
                   <h3 className="font-medium">Wide Product Range</h3>
                   <p className="text-sm text-gray-500">
@@ -109,7 +115,9 @@ const AboutPage = () => {
                 </div>
               </div>
               <div className="flex items-start gap-2">
-                <CheckCircle className="mt-1 h-5 w-5 text-primary" />
+                <div>
+                  <CheckCircle size={16} className="mt-1 text-primary" />
+                </div>
                 <div>
                   <h3 className="font-medium">Sustainability</h3>
                   <p className="text-sm text-gray-500">

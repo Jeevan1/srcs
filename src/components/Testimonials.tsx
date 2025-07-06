@@ -13,7 +13,7 @@ const Testimonials = () => {
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 3,
-    autoplay: false,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -49,7 +49,7 @@ const Testimonials = () => {
           description="We value our clients and their feedback. Here's what they have to say about our services."
         />
         <div className="relative">
-          <div className="absolute top-1/2 z-1 flex w-full -translate-y-1/2 justify-between space-x-2">
+          <div className="absolute top-1/2 z-1 hidden w-full -translate-y-1/2 justify-between space-x-2 md:flex">
             <button
               onClick={() => sliderRef.current?.slickPrev()}
               className="cursor-pointer rounded-lg bg-gray-400 p-1 text-white transition hover:bg-primary md:-ml-5"

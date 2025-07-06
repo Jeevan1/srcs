@@ -26,31 +26,31 @@ const Header = () => {
         <nav className="hidden items-center space-x-6 md:flex">
           <Link
             href="/"
-            className="md:text-md text-gray-700 hover:text-primary"
+            className="md:text-md font-semibold text-gray-700 hover:text-primary"
           >
             Home
           </Link>
           <Link
             href="/services"
-            className="md:text-md text-gray-700 hover:text-primary"
+            className="md:text-md font-semibold text-gray-700 hover:text-primary"
           >
             Services
           </Link>
           <Link
             href="/projects"
-            className="md:text-md text-gray-700 hover:text-primary"
+            className="md:text-md font-semibold text-gray-700 hover:text-primary"
           >
             Projects
           </Link>
           <Link
             href="/about"
-            className="md:text-md text-gray-700 hover:text-primary"
+            className="md:text-md text-gray7800 font-semibold hover:text-primary"
           >
             About
           </Link>
           <Link
             href="/contact"
-            className="md:text-md text-gray-700 hover:text-primary"
+            className="md:text-md text-gray7800 font-semibold hover:text-primary"
           >
             Contact
           </Link>
@@ -81,35 +81,35 @@ const Header = () => {
             <nav className="flex flex-col space-y-3">
               <Link
                 href="/"
-                className="rounded-md px-4 py-2 hover:bg-gray-100"
+                className="rounded-md px-4 py-2 font-semibold text-gray-700 hover:bg-gray-100"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
                 href="/services"
-                className="rounded-md px-4 py-2 hover:bg-gray-100"
+                className="rounded-md px-4 py-2 font-semibold text-gray-700 hover:bg-gray-100"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Services
               </Link>
               <Link
                 href="/projects"
-                className="rounded-md px-4 py-2 hover:bg-gray-100"
+                className="rounded-md px-4 py-2 font-semibold text-gray-700 hover:bg-gray-100"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Projects
               </Link>
               <Link
                 href="/about"
-                className="rounded-md px-4 py-2 hover:bg-gray-100"
+                className="rounded-md px-4 py-2 font-semibold text-gray-700 hover:bg-gray-100"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 About
               </Link>
               <Link
                 href="/contact"
-                className="rounded-md px-4 py-2 hover:bg-gray-100"
+                className="rounded-md px-4 py-2 font-semibold text-gray-700 hover:bg-gray-100"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Contact

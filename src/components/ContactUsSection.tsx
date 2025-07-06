@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionHeading from './SectionHeading';
 import GoogleMap from './GoogleMap';
+import { AlarmClockCheck, MailCheck, MapPinned, Phone } from 'lucide-react';
 
 const ContactUsSection = () => {
   return (
@@ -23,19 +24,30 @@ const ContactUsSection = () => {
             </div>
             <div className="space-y-6">
               <div>
-                <h3 className="font-medium">Address</h3>
+                <h3 className="flex items-center gap-1.5 font-medium text-primary">
+                  <MapPinned size={16} />
+                  Address
+                </h3>
                 <p className="text-gray-500">Chapali, Kathmandu</p>
               </div>
               <div>
-                <h3 className="font-medium">Phone</h3>
+                <h3 className="flex items-center gap-1.5 font-medium text-primary">
+                  <Phone size={16} />
+                  Phone
+                </h3>
                 <p className="text-gray-500">(+977) 9860316903</p>
               </div>
               <div>
-                <h3 className="font-medium">Email</h3>
+                <h3 className="flex items-center gap-1.5 font-medium text-primary">
+                  <MailCheck size={16} />
+                  Email
+                </h3>
                 <p className="text-gray-500">srconstruction@gmail.com</p>
               </div>
               <div>
-                <h3 className="font-medium">Hours</h3>
+                <h3 className="flex items-center gap-1.5 font-medium text-primary">
+                  <AlarmClockCheck size={16} /> Hours
+                </h3>
                 <p className="text-gray-500">
                   Opens 24 hours a day, 7 days a week
                 </p>

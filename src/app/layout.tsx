@@ -1,13 +1,10 @@
 import type { Metadata } from 'next';
-import { Roboto_Serif } from 'next/font/google';
+import { Quicksand, Roboto_Mono, Roboto_Serif } from 'next/font/google';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './globals.css';
 
-const Roboto = Roboto_Serif({
-  subsets: ['latin'],
-  variable: '--font-roboto-serif',
-});
+const Roboto = Quicksand({ weight: ['400', '700'], subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
@@ -27,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${Roboto.variable} antialiased`}>{children}</body>
+      <body className={`${Roboto.className} antialiased`}>{children}</body>
     </html>
   );
 }

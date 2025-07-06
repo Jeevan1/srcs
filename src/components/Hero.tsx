@@ -3,15 +3,16 @@ import Button from './ui/Button';
 
 const Hero = () => {
   return (
-    <section className="relative w-full bg-gradient-to-br from-gray-900 to-gray-800 py-28 text-white md:py-36">
+    <section className="relative w-full bg-gradient-to-br from-gray-400 to-gray-500 py-28 text-white md:py-36">
       {/* Background Overlay */}
       <div
-        className="absolute inset-0 bg-black opacity-90"
+        className="absolute inset-0 bg-gray-900 opacity-80"
         style={{
           backgroundImage: `url('/assets/banner/banner.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          mixBlendMode: 'normal',
+          backgroundRepeat: 'no-repeat',
+          mixBlendMode: 'multiply',
         }}
       />
 
