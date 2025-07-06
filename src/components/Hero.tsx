@@ -18,14 +18,23 @@ const Hero = () => {
 
       <div className="relative z-10 container px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="mb-6 text-4xl leading-tight font-extrabold tracking-tight sm:text-5xl md:text-6xl">
+          <h1
+            className="mb-6 text-4xl leading-tight font-extrabold tracking-tight sm:text-5xl md:text-6xl"
+            data-aos="fade-right"
+          >
             Building<span className="text-primary"> Tomorrow</span>, Today
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-xl text-gray-50 md:text-2xl">
+          <p
+            className="mx-auto mt-6 max-w-2xl text-xl text-gray-50 md:text-2xl"
+            data-aos="fade-left"
+          >
             Supplying top-tier materials for every foundation — from homes to
             highways.
           </p>
-          <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
+          <div
+            className="mt-10 flex flex-col justify-center gap-4 sm:flex-row"
+            data-aos="fade-up"
+          >
             <Link href="/projects">
               <Button className="px-8 font-semibold md:text-lg">
                 View Our Projects

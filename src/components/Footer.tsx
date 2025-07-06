@@ -10,6 +10,7 @@ const Footer = () => {
             <Link
               href="/"
               className="flex items-center gap-2 text-xl font-bold text-white"
+              data-aos="zoom-in"
             >
               <Image
                 src={'/assets/logo2.png'}
@@ -19,16 +20,18 @@ const Footer = () => {
                 className="h-16 w-28 object-contain"
               />
             </Link>
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-400" data-aos="fade-up">
               Premium construction material supplier with over 7 years of
               experience.
             </p>
           </div>
 
           <div>
-            <h3 className="mb-4 font-semibold text-white">Quick Links</h3>
+            <h3 className="mb-4 font-semibold text-white" data-aos="fade-right">
+              Quick Links
+            </h3>
             <ul className="space-y-2">
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -36,7 +39,7 @@ const Footer = () => {
                   Home
                 </Link>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/services"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -44,7 +47,7 @@ const Footer = () => {
                   Services
                 </Link>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/projects"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -52,7 +55,7 @@ const Footer = () => {
                   Projects
                 </Link>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/about"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -60,7 +63,7 @@ const Footer = () => {
                   About
                 </Link>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/contact"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -72,9 +75,11 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="mb-4 font-semibold text-white">Services</h3>
+            <h3 className="mb-4 font-semibold text-white" data-aos="fade-right">
+              Services
+            </h3>
             <ul className="space-y-2">
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/services"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -82,7 +87,7 @@ const Footer = () => {
                   Residential Materials
                 </Link>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/services"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -90,7 +95,7 @@ const Footer = () => {
                   Commercial Materials
                 </Link>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/services"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -98,7 +103,7 @@ const Footer = () => {
                   Industrial Materials
                 </Link>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/services"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -106,7 +111,7 @@ const Footer = () => {
                   Renovations
                 </Link>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <Link
                   href="/services"
                   className="text-gray-400 transition-colors hover:text-white"
@@ -118,11 +123,13 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="mb-4 font-semibold text-white">Contact</h3>
+            <h3 className="mb-4 font-semibold text-white" data-aos="fade-right">
+              Contact
+            </h3>
             <address className="space-y-2 text-gray-400 not-italic">
-              <p>Chapali, Kathmandu</p>
-              <p>Phone: (+977) 9860316903</p>
-              <p>Email: srconstruction986@gmail.com</p>
+              <p data-aos="fade-up">Chapali, Kathmandu</p>
+              <p data-aos="fade-up">Phone: (+977) 9860316903</p>
+              <p data-aos="fade-up">Email: srconstruction986@gmail.com</p>
             </address>
           </div>
         </div>
@@ -135,6 +142,7 @@ const Footer = () => {
             <a
               href="#"
               className="text-gray-400 transition-colors hover:text-white"
+              data-aos="fade-right"
             >
               <span className="sr-only">Facebook</span>
               <svg
@@ -153,6 +161,7 @@ const Footer = () => {
             <a
               href="#"
               className="text-gray-400 transition-colors hover:text-white"
+              data-aos="fade-left"
             >
               <span className="sr-only">Instagram</span>
               <svg

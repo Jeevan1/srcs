@@ -10,7 +10,10 @@ const SectionHeading = ({
   description: string;
 }) => {
   return (
-    <div className="mb-12 flex flex-col items-center justify-center space-y-4 text-center">
+    <div
+      className="mb-12 flex flex-col items-center justify-center space-y-4 text-center"
+      data-aos="fade-up"
+    >
       <h5 className="text-md relative inline-block font-semibold after:absolute after:right-0 after:-bottom-1 after:h-[3px] after:w-[70%] after:rounded-md after:bg-primary after:content-['']">
         {title}
       </h5>

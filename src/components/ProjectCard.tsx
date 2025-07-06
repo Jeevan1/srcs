@@ -4,7 +4,10 @@ import React from 'react';
 
 const ProjectCard = ({ project }: { project: Projects }) => {
   return (
-    <div className="w-full transform cursor-pointer space-y-3 overflow-hidden rounded-md bg-white pb-4 shadow-sm duration-200 hover:shadow-lg">
+    <div
+      className="w-full transform cursor-pointer space-y-3 overflow-hidden rounded-md bg-white pb-4 shadow-sm duration-200 hover:shadow-lg"
+      data-aos="fade-up"
+    >
       <div className="overflow-hidden">
         <Image
           src={project.imageUrl}

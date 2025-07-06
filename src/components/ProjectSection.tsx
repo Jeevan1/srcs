@@ -66,7 +66,7 @@ const ProjectSection = () => {
           </div>
           <Slider {...settings} className="mb-3 pb-3 md:-mx-3" ref={sliderRef}>
             {data.projects.map((project, index) => (
-              <div key={index} className="px-3 pb-3">
+              <div key={index} className="px-3 pb-3" data-aos="fade-left">
                 <div className="flex h-full flex-col justify-between overflow-hidden rounded-md bg-white shadow-md transition-shadow duration-300 hover:shadow-lg">
                   <div className="w-full flex-shrink-0">
                     <Image

@@ -13,7 +13,10 @@ const ContactUsSection = () => {
           description="We're here to help! Reach out to us for any inquiries, project proposals, or collaboration opportunities."
         />
         <div className="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
-          <div className="rounded-lg border border-gray-100 bg-white p-6 shadow-md">
+          <div
+            className="rounded-lg border border-gray-100 bg-white p-6 shadow-md"
+            data-aos="fade-right"
+          >
             <div className="mb-4 space-y-1">
               <h2 className="text-xl font-semibold md:text-2xl">
                 Contact Information
@@ -56,7 +59,10 @@ const ContactUsSection = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="rounded-lg border border-gray-100 bg-white shadow-md">
+          <div
+            className="rounded-lg border border-gray-100 bg-white shadow-md"
+            data-aos="fade-left"
+          >
             {/* <div className="mb-4 space-y-1">
               <h2 className="text-xl font-semibold md:text-2xl">
                 Send Us a Message

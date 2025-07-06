@@ -46,7 +46,7 @@ const AboutPage = () => {
           description="Explore our diverse portfolio of successfully completed construction projects across various sectors."
         />
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
-          <div>
+          <div data-aos="fade-right">
             <Image
               src="/assets/about.jpg"
               alt="About Us"
@@ -56,7 +56,7 @@ const AboutPage = () => {
             />
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-6" data-aos="fade-left">
             <h2 className="text-2xl font-bold">Our Mission</h2>
             <p className="text-muted-foreground">
               Founded in 2017, Santosh Raj Suppliers has proudly established
@@ -79,7 +79,7 @@ const AboutPage = () => {
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-4">
-              <div className="flex items-start gap-2">
+              <div className="flex items-start gap-2" data-aos="fade-up">
                 <div>
                   <CheckCircle size={16} className="mt-1 text-primary" />
                 </div>
@@ -91,7 +91,7 @@ const AboutPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-2">
+              <div className="flex items-start gap-2" data-aos="fade-up">
                 <div>
                   <CheckCircle size={16} className="mt-1 text-primary" />
                 </div>
@@ -102,7 +102,7 @@ const AboutPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-2">
+              <div className="flex items-start gap-2" data-aos="fade-up">
                 <div>
                   <CheckCircle size={16} className="mt-1 text-primary" />
                 </div>
@@ -114,7 +114,7 @@ const AboutPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-2">
+              <div className="flex items-start gap-2" data-aos="fade-up">
                 <div>
                   <CheckCircle size={16} className="mt-1 text-primary" />
                 </div>
@@ -133,6 +133,7 @@ const AboutPage = () => {
             <div
               key={counter.id}
               className="flex flex-col items-center rounded-md border border-gray-100 p-6 text-center shadow-md transition duration-200 hover:bg-white hover:shadow-lg"
+              data-aos="zoom-in"
             >
               <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                 <counter.icon className="h-6 w-6 text-primary" />

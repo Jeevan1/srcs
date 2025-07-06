@@ -11,7 +11,10 @@ const TabsList = ({
   setActiveTab: (tab: string) => void;
 }) => {
   return (
-    <div className="m-auto flex max-w-3xl items-center justify-between gap-4 overflow-hidden rounded-md bg-gray-100 px-3 py-2 hover:overflow-x-auto">
+    <div
+      className="m-auto flex max-w-3xl items-center justify-between gap-4 overflow-hidden rounded-md bg-gray-100 px-3 py-2 hover:overflow-x-auto"
+      data-aos="fade-right"
+    >
       <button
         type="button"
         onClick={() => setActiveTab('all')}

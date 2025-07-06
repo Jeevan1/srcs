@@ -1,7 +1,8 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ProjectCard from '@/components/ProjectCard';
 import SectionHeading from '@/components/SectionHeading';
+import aos from 'aos';
 import StartProject from '@/components/StartProject';
 import TabsList from '@/components/ui/TabsList';
 import data from '../../../utility//data.json';
@@ -13,6 +14,10 @@ const ProjectPage = () => {
     .filter((value, index, self) => self.indexOf(value) === index);
 
   const [activeTab, setActiveTab] = useState<string>('all');
+
+  useEffect(() => {
+    aos.refresh();
+  }, [activeTab]);
 
   return (
     <section id="projects" className="bg-gray-50 py-16">

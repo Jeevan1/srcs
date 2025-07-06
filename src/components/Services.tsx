@@ -17,6 +17,7 @@ const Services = () => {
             <div
               key={index}
               className="rounded-md border-none bg-gray-50 p-4 shadow-md transition-shadow duration-300 hover:shadow-lg"
+              data-aos="fade-right"
             >
               <div>
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">

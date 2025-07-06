@@ -65,7 +65,11 @@ const Testimonials = () => {
           </div>
           <Slider {...settings} className="mb-3 pb-3 md:-mx-3" ref={sliderRef}>
             {data.testimonials.map((testimonial, index) => (
-              <div key={index} className="min-h-full px-3 pb-3">
+              <div
+                key={index}
+                className="min-h-full px-3 pb-3"
+                data-aos="fade-left"
+              >
                 <div className="flex flex-col justify-between overflow-hidden rounded-md bg-gray-50 shadow-md transition-shadow duration-300 hover:shadow-lg">
                   <div className="">
                     <div className="flex items-center gap-4 p-4">

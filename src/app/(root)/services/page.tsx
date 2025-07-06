@@ -175,7 +175,10 @@ const ServicePage = () => {
             className={`grid grid-cols-1 items-center gap-12 lg:grid-cols-2 ${index > 0 ? 'mt-20' : ''}`}
           >
             {/* Content Section */}
-            <div className={index % 2 === 0 ? '' : 'order-2 lg:order-1'}>
+            <div
+              className={index % 2 === 0 ? '' : 'order-2 lg:order-1'}
+              data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'}
+            >
               <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-lg">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                   <service.icon className="h-6 w-6 text-primary" />
@@ -213,7 +216,10 @@ const ServicePage = () => {
             </div>
 
             {/* Image Section */}
-            <div className={index % 2 === 0 ? 'order-1 lg:order-2' : ''}>
+            <div
+              className={index % 2 === 0 ? 'order-1 lg:order-2' : ''}
+              data-aos={index % 2 === 0 ? 'fade-left' : 'fade-right'}
+            >
               <Image
                 src={
                   service.image ||
