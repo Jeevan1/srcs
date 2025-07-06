@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Quicksand, Roboto_Mono, Roboto_Serif } from 'next/font/google';
+import { Quicksand } from 'next/font/google';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './globals.css';
