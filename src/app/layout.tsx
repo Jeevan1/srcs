@@ -9,12 +9,29 @@ const Roboto = Quicksand({ weight: ['400', '700'], subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Santosh Raj Construction and Suppliers',
+    default: 'Home',
     template: '%s | Santosh Raj Construction and Suppliers',
   },
   description: 'Santosh Raj Construction and Suppliers',
   icons: {
     icon: '/assets/logo.png',
+  },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
+  openGraph: {
+    title: 'Home | Santosh Raj Construction and Suppliers',
+    description: 'Santosh Raj Construction and Suppliers',
+    images: [
+      {
+        url: '/assets/logo.png',
+        width: 800,
+        height: 600,
+        alt: 'Santosh Raj Construction and Suppliers',
+      },
+    ],
   },
 };
 

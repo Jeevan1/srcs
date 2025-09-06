@@ -1,20 +1,11 @@
 import Link from 'next/link';
 import Button from './ui/Button';
+import HeroSlider from './HeroSlider';
 
 const Hero = () => {
   return (
-    <section className="relative w-full bg-gradient-to-br from-gray-400 to-gray-500 py-28 text-white md:py-36">
-      {/* Background Overlay */}
-      <div
-        className="absolute inset-0 bg-gray-900 opacity-80"
-        style={{
-          backgroundImage: `url('/assets/banner/banner.png')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          mixBlendMode: 'multiply',
-        }}
-      />
+    <section className="relative w-full overflow-hidden bg-gradient-to-br from-gray-400 to-gray-500 py-28 text-white md:py-36">
+      <HeroSlider />
 
       <div className="relative z-10 container px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">

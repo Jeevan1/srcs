@@ -12,7 +12,11 @@ const TabsList = ({
 }) => {
   return (
     <div
-      className="m-auto flex max-w-3xl items-center justify-between gap-4 overflow-hidden rounded-md bg-gray-100 px-3 py-2 hover:overflow-x-auto"
+      className="
+    scrollbar-hide m-auto scrollbar-thin flex max-w-2xl items-center gap-4 overflow-x-auto overflow-y-hidden rounded-md
+    bg-gray-100 px-3 py-2
+    hover:scrollbar-thin hover:scrollbar-thumb-gray-400 hover:scrollbar-track-gray-200
+  "
       data-aos="fade-right"
     >
       <button

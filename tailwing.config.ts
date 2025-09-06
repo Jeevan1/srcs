@@ -16,7 +16,6 @@ export default {
         dark: '#1f1f1f', // A slightly darker gray for a deeper base
         accent: '#484848', // A slightly darker gray for a stronger accent
         muted: '#f3f3f3', // A slightly lighter gray for muted elements
-        
       },
       container: {
         center: true,
@@ -30,5 +29,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
 } satisfies Config;

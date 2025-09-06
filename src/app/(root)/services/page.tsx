@@ -92,7 +92,7 @@ const servicesData: Service[] = [
     description:
       'Robust materials for factories, warehouses, and large-scale infrastructure projects.',
     icon: Factory,
-    image: '/assets/services/service.png',
+    image: '/assets/services/service3.jpg',
     features: [
       'Heavy-duty steel and rebar',
       'Precast concrete elements',
@@ -128,7 +128,7 @@ const servicesData: Service[] = [
     description:
       'Specialized materials for remodeling, repairs, and heritage building restoration.',
     icon: Hammer,
-    image: '/assets/services/service2.jpg',
+    image: '/assets/services/service4.jpg',
     features: [
       'Tiles, fixtures, and finishes',
       'Waterproofing and repair compounds',
